@@ -1,46 +1,21 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: FAQ di Gaia
+tagline: Croce Rossa Italiana
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+Questo sito web raccoglie le domande che vengono poste pi&ugrave; di frequente alla Squadra di supporto di Gaia.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+Vuole essere una risorsa sia per gli Utenti che per la nostra Squadra di Supporto di Primo Livello.
 
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
+### FAQ presenti
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li>(<span>{{ post.date | date_to_string }}</span>) <strong><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></strong></li>
   {% endfor %}
 </ul>
 
-## To-Do
+### Non &egrave; ancora chiaro...
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+Se non hai trovato la risposta alla tua domanda su questo sito, oppure qualcosa non &egrave; esaustivo, ti preghiamo di contattarci [all'indirizzo email supporto@gaia.cri.it](mailto:supporto@gaia.cri.it).
